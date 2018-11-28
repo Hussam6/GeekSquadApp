@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Geek_Squad.CustomerPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Geek_Squad"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel BorderThickness="20">
+            <TextBlock x:Name="helloTv" Text="Hello user!" FontSize="60" Margin="25"/>
+            <Button Click="onClickSetupAppt" x:Name="setupApptBtn" Content="Setup Repair Appointment" Height="100" FontSize="45" Margin="20" Padding="15" RelativePanel.Below="helloTv"/>
+
+        </RelativePanel>
+
+    </Grid>
+</Page>
