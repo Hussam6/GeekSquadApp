@@ -34,7 +34,7 @@ namespace Geek_Squad
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BlankPage1));
+            this.Frame.Navigate(typeof(NewUser));
         }
     }
 }
