@@ -13,6 +13,7 @@
         <TextBox Text="Password" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="500" Margin="0,0,0,484"/>
         <TextBox Text="Username or Email Address" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,521" Width="501" Height="32"/>
         <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="250"/>
+        <HyperlinkButton Click="HyperlinkButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,387" Width="321" Height="32">Do not have an account? Click here to creat one.</HyperlinkButton>
 
     </Grid>
 </Page>
