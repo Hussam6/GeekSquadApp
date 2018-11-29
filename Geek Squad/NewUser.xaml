@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Geek_Squad.NewUser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Geek_Squad"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel BorderThickness="20">
+            <TextBlock x:Name="headerTv" Text="Create your account" FontSize="90" Margin="25"/>
+            <TextBlock x:Name="nameTv" Text="Full Name:" FontSize="50" Margin="20" RelativePanel.Below="headerTv"/>
+            <TextBlock x:Name="emailTv" Text="Email:" FontSize="50" Margin="20" RelativePanel.Below="nameTv"/>
+            <TextBlock x:Name="addressTv" Text="Address:" FontSize="50" Margin="20" RelativePanel.Below="emailTv"/>
+            <TextBlock x:Name="postalTv" Text="Postal Code:" FontSize="50" Margin="20" RelativePanel.Below="addressTv"/>
+            <TextBlock x:Name="provinceTv" Text="Province:" FontSize="50" Margin="20" RelativePanel.Below="postalTv"/>
+        </RelativePanel>
+    </Grid>
+</Page>
