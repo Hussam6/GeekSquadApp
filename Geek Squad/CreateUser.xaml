@@ -9,6 +9,23 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <RelativePanel BorderThickness="20">
+            <TextBlock x:Name="headerTv" Text="Create your account" FontSize="90" Margin="25"/>
+            <TextBlock x:Name="nameTv" Text="Full Name:" FontSize="50" Margin="20" RelativePanel.Below="headerTv"/>
+            <TextBox x:Name="nameTb" Margin="20" Height="50" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="nameTv"/>
 
+            <TextBlock x:Name="emailTv" Text="Email:" FontSize="50" Margin="20" RelativePanel.Below="nameTv"/>
+            <TextBox x:Name="emailTb" Margin="20" Height="50" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="emailTv"/>
+            
+            <TextBlock x:Name="addressTv" Text="Address:" FontSize="50" Margin="20" RelativePanel.Below="emailTv"/>
+            <TextBox x:Name="addressTb" Margin="20" Height="50" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="addressTv"/>
+            
+            <TextBlock x:Name="postalTv" Text="Postal Code:" FontSize="50" Margin="20" RelativePanel.Below="addressTv"/>
+            <TextBox x:Name="postalTb" Margin="20" Height="50" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="postalTv"/>
+            
+            <TextBlock x:Name="provinceTv" Text="Province:" FontSize="50" Margin="20" RelativePanel.Below="postalTv"/>
+            <TextBox x:Name="provinceTb" Margin="20" Height="50" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="provinceTv"/>
+            <!-- TODO: Make the province input a dropdown -->
+        </RelativePanel>
     </Grid>
 </Page>

@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <RelativePanel BorderThickness="20">
+            <TextBlock x:Name="welcomeTv" Text="Welcome, User!" FontSize="90" Margin="25"/>
+            <Button x:Name="checkStatusBtn" Content="Check the status of your order" FontSize="50" Margin="25" RelativePanel.Below="welcomeTv"></Button>
+        </RelativePanel>
 
     </Grid>
 </Page>
