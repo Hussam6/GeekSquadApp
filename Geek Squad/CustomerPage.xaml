@@ -11,7 +11,7 @@
     <Grid>
         <RelativePanel BorderThickness="20">
             <TextBlock x:Name="helloTv" Text="Hello user!" FontSize="60" Margin="25"/>
-            <Button Click="onClickCheckOrder" x:Name="checkOrderBtn" Content="Check the status of your order" Height="100" FontSize="45" Margin="20" Padding="15" RelativePanel.Below="helloTv"/>
+            <Button Click="onClickSetupAppt" x:Name="setupApptBtn" Content="Setup Repair Appointment" Height="100" FontSize="45" Margin="20" Padding="15" RelativePanel.Below="helloTv"/>
 
         </RelativePanel>
 

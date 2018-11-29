@@ -11,8 +11,13 @@
     <Grid>
         <RelativePanel BorderThickness="20">
             <TextBlock x:Name="headerTv" Text="Create your account" FontSize="90" Margin="25"/>
-            <TextBlock x:Name="usernameTv" Text="Username:" FontSize="50" Margin="25" RelativePanel.Below="headerTv"/>
-            <TextBlock x:Name="passwordTv" Text="Password:" FontSize="50" Margin="25" RelativePanel.Below="usernameTv"/>
+            <TextBlock x:Name="nameTv" Text="Full Name:" FontSize="50" Margin="20" RelativePanel.Below="headerTv"/>
+            
+            <TextBlock x:Name="emailTv" Text="Email:" FontSize="50" Margin="20" RelativePanel.Below="nameTv"/>
+            <TextBlock x:Name="addressTv" Text="Address:" FontSize="50" Margin="20" RelativePanel.Below="emailTv"/>
+            <TextBlock x:Name="postalTv" Text="Postal Code:" FontSize="50" Margin="20" RelativePanel.Below="addressTv"/>
+            <TextBlock x:Name="provinceTv" Text="Province:" FontSize="50" Margin="20" RelativePanel.Below="postalTv"/>
+            
         </RelativePanel>
 
     </Grid>
