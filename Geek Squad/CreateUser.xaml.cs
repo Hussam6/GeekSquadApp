@@ -26,5 +26,10 @@ namespace Geek_Squad
         {
             this.InitializeComponent();
         }
+
+        private void OnClickEnterBtn(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(CxtPage));
+        }
     }
 }
