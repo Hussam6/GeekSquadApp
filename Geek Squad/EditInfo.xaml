@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="Geek_Squad.CreateUser"
+    x:Class="Geek_Squad.EditInfo"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Geek_Squad"
@@ -9,15 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="headerTv" Text="Create an Account" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
+        <TextBlock x:Name="headerTv" Text="Edit Account Info" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
         <TextBox x:Name="nameTb" Text="" Width="500" HorizontalAlignment="Center"  Margin="0,0,0,492" VerticalAlignment="Bottom" Height="32" PlaceholderText="Full Name"/>
         <TextBox x:Name="emailTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,455" Height="32" PlaceholderText="Email Address"/>
         <TextBox x:Name="addressTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,418" Height="32" PlaceholderText="Address"/>
         <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,381" Height="32" PlaceholderText="Postal Code"/>
         <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,344" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" Height="32"/>
-        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
+        <Button x:Name="saveBtn" Click="saveBtn_Click" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
+        <Button x:Name="cancelBtn" Click="cancelBtn_Click" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,270" Height="32"/>
         <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="200"/>
-        <!-- TODO: Make the province input a dropdown -->
-
     </Grid>
 </Page>

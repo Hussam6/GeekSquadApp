@@ -38,5 +38,10 @@ namespace Geek_Squad
         {
             this.Frame.Navigate(typeof(CheckOrder));
         }
+
+        private void changeInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(EditInfo));
+        }
     }
 }

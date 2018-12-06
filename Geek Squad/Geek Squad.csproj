@@ -104,6 +104,9 @@
     <Compile Include="CxtPage.xaml.cs">
       <DependentUpon>CxtPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EditInfo.xaml.cs">
+      <DependentUpon>EditInfo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -140,6 +143,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CxtPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
