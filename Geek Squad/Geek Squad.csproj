@@ -101,6 +101,9 @@
     <Compile Include="CreateUser.xaml.cs">
       <DependentUpon>CreateUser.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CreateUser2.xaml.cs">
+      <DependentUpon>CreateUser2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CxtPage.xaml.cs">
       <DependentUpon>CxtPage.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CreateUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreateUser2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
