@@ -9,10 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <RelativePanel BorderThickness="20">
-            <TextBlock x:Name="welcomeTv" Text="Welcome, User!" FontSize="60" Margin="25"/>
-            <Button x:Name="checkStatusBtn" Content="Check the status of your order" FontSize="40" Margin="25" RelativePanel.Below="welcomeTv"></Button>
-        </RelativePanel>
+
+        <TextBlock x:Name="welcomeTv" Text="Welcome, User!" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,634"/>
+        <Button x:Name="checkStatusBtn" Content="Check the status of your order" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,584"></Button>
+        <Button x:Name="logoutBtn" Click="logoutBtn_Click" Content="Log Out" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"></Button>
+        
 
     </Grid>
 </Page>

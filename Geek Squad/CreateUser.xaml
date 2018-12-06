@@ -10,7 +10,7 @@
 
     <Grid>
 
-        <TextBlock x:Name="headerTv" Text="Create your account" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
+        <TextBlock x:Name="headerTv" Text="Create your account" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
         <TextBox x:Name="nameTb" Text="Full Name" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,484"/>
         <TextBox x:Name="emailTb" Text="Email Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,434"/>
         <TextBox x:Name="addressTb" Text="Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,384"/>

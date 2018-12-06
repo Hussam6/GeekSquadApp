@@ -26,5 +26,10 @@ namespace Geek_Squad
         {
             this.InitializeComponent();
         }
+
+        private void logoutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
