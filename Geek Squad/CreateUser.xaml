@@ -15,7 +15,7 @@
         <TextBox x:Name="emailTb" Text="Email Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,434"/>
         <TextBox x:Name="addressTb" Text="Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,384"/>
         <TextBox x:Name="postalTb" Text="Postal Code" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,334"/>
-        <TextBox x:Name="provinceTb" Text="Province" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,284"/>
+        <ComboBox x:Name="provinceCb" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,284" ItemsSource="{x:Bind provinces}"/>
         <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,234"/>
         <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,734" VerticalAlignment="Bottom" Width="200"/>
             <!-- TODO: Make the province input a dropdown -->
