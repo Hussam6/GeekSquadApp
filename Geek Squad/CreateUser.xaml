@@ -10,14 +10,15 @@
 
     <Grid>
 
-        <TextBlock x:Name="headerTv" Text="Create your account" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
-        <TextBox x:Name="nameTb" Text="Full Name" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,484"/>
-        <TextBox x:Name="emailTb" Text="Email Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,434"/>
-        <TextBox x:Name="addressTb" Text="Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,384"/>
-        <TextBox x:Name="postalTb" Text="Postal Code" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,334"/>
-        <ComboBox x:Name="provinceCb" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,284" ItemsSource="{x:Bind provinces}"/>
-        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,234"/>
-        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,734" VerticalAlignment="Bottom" Width="200"/>
+        <TextBlock x:Name="headerTv" Text="Create an Account" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
+        <TextBox x:Name="nameTb" Text="" Width="500" HorizontalAlignment="Center"  Margin="0,0,0,492" VerticalAlignment="Bottom" Height="32" PlaceholderText="Full Name"/>
+        <TextBox x:Name="emailTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,455" Height="32" PlaceholderText="Email Address"/>
+        <TextBox x:Name="addressTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,418" Height="32" PlaceholderText="Address"/>
+        <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,381" Height="32" PlaceholderText="Postal Code"/>
+        <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,344" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" Height="32"/>
+        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
+        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="200"/>
+        <!-- TODO: Make the province input a dropdown -->
 
     </Grid>
 </Page>
