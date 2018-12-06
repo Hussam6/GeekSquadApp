@@ -9,11 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
-        <TextBlock x:Name="welcomeTv" Text="Welcome, User!" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,634"/>
+        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,734" VerticalAlignment="Bottom" Width="200"/>
+        <TextBlock x:Name="welcomeTv" Text="placeholder" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,634"/>
         <Button x:Name="checkStatusBtn" Click="checkStatusBtn_Click" Content="Check the status of your order" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,584"></Button>
-        <Button x:Name="logoutBtn" Click="logoutBtn_Click" Content="Log Out" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"></Button>
-        
+        <Button x:Name="changeInfoBtn" Click="changeInfoBtn_Click" Content="Edit Account Info" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"></Button>
+        <Button x:Name="logoutBtn" Click="logoutBtn_Click" Content="Log Out" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,484"></Button>
+        <!-- <RelativePanel>
+            <TextBlock x:Name="infoTv" Text="Account Info:" FontSize="40" Margin="30,0,0,0" RelativePanel.Above="nameTv"/>
+            <TextBlock x:Name="nameTv" Text="name" FontSize="40" Margin="30,0,0,30" RelativePanel.AlignBottomWithPanel="True"/>
+        </RelativePanel>-->
 
     </Grid>
 </Page>
