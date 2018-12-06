@@ -20,21 +20,16 @@ namespace Geek_Squad
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class CxtPage : Page
+    public sealed partial class CheckOrder : Page
     {
-        public CxtPage()
+        public CheckOrder()
         {
             this.InitializeComponent();
         }
 
-        private void logoutBtn_Click(object sender, RoutedEventArgs e)
+        private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
-        }
-
-        private void checkStatusBtn_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(CheckOrder));
+            this.Frame.Navigate(typeof(CxtPage));
         }
     }
 }
