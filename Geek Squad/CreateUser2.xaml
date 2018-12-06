@@ -10,16 +10,12 @@
 
     <Grid>
         <TextBlock x:Name="headerTv" Text="Create an Account" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
-        <TextBox x:Name="nameTb" Text="" Width="500" HorizontalAlignment="Center"  Margin="0,0,0,492" VerticalAlignment="Bottom" Height="32" PlaceholderText="Full Name"/>
-        <TextBox x:Name="emailTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,455" Height="32" PlaceholderText="Email Address"/>
-        <TextBox x:Name="addressTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,344" PlaceholderText="Address" Height="32"/>
-        <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" PlaceholderText="Postal Code" Height="32"/>
-        <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,270" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" Height="32" SelectionChanged="provinceCb_SelectionChanged"/>
-        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,233" Height="32"/>
+        <TextBox x:Name="addressTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" PlaceholderText="Address" Margin="0,0,0,484" Height="32"/>
+        <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,447" PlaceholderText="Postal Code" Height="32"/>
+        <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,410" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" SelectionChanged="provinceCb_SelectionChanged" Height="32"/>
+        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,336" Height="32"/>
         <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="250"/>
-        <HyperlinkButton Click="HyperlinkButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,196" Width="321" Foreground="Blue" Background="White" Height="32">Have an account? Click here to login.</HyperlinkButton>
-        <PasswordBox HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <PasswordBox HorizontalAlignment="Center" Margin="0,0,0,418" VerticalAlignment="Bottom" Width="500" PlaceholderText="Password" Height="32"/>
-        <PasswordBox HorizontalAlignment="Center" Margin="0,0,0,381" VerticalAlignment="Bottom" Width="500" PlaceholderText="Confirm Password" Height="32"/>
+        <HyperlinkButton Click="HyperlinkButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,299" Width="321" Foreground="Blue" Background="White" Height="32">Have an account? Click here to login.</HyperlinkButton>
+        <TextBox HorizontalAlignment="Center" Margin="0,0,0,373" Text="" VerticalAlignment="Bottom" Width="500" Height="32" PlaceholderText="Phone Number"/>
     </Grid>
 </Page>

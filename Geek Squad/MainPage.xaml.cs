@@ -29,7 +29,7 @@ namespace Geek_Squad
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            this.Frame.Navigate(typeof(CxtPage));
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)

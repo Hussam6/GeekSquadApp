@@ -44,7 +44,7 @@ namespace Geek_Squad
 
         private void OnClickEnterBtn(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(CxtPage));
+            this.Frame.Navigate(typeof(CreateUser2));
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
