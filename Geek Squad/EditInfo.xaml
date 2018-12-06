@@ -15,8 +15,8 @@
         <TextBox x:Name="addressTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,418" Height="32" PlaceholderText="Address"/>
         <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,381" Height="32" PlaceholderText="Postal Code"/>
         <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,344" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" Height="32"/>
-        <Button x:Name="saveBtn" Click="saveBtn_Click" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
-        <Button x:Name="cancelBtn" Click="cancelBtn_Click" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,270" Height="32"/>
+        <Button x:Name="saveBtn" Click="saveBtn_Click" Content="Save Changes" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
+        <Button x:Name="cancelBtn" Click="cancelBtn_Click" Content="Cancel" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,270" Height="32"/>
         <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="200"/>
     </Grid>
 </Page>

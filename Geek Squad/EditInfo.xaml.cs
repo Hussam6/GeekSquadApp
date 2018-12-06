@@ -41,7 +41,10 @@ namespace Geek_Squad
             provinces.Add("Saskatchewan");
             provinces.Add("Yukon");
 
-
+            nameTb.Text = "Bob Bonb";
+            emailTb.Text = "bonb@aol.com";
+            addressTb.Text = "348 Grenville Lane";
+            postalTb.Text = "B5F 1U8";
         }
 
         private void saveBtn_Click(object sender, RoutedEventArgs e)
