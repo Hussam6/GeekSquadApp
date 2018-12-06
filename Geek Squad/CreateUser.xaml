@@ -9,25 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <RelativePanel BorderThickness="20">
-            <TextBlock x:Name="headerTv" Text="Create your account" FontSize="60" Margin="25"/>
-            <TextBlock x:Name="nameTv" Text="Full Name:" FontSize="40" Margin="20" RelativePanel.Below="headerTv"/>
-            <TextBox x:Name="nameTb" Margin="20" Height="40" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="nameTv"/>
 
-            <TextBlock x:Name="emailTv" Text="Email:" FontSize="40" Margin="20" RelativePanel.Below="nameTv"/>
-            <TextBox x:Name="emailTb" Margin="20" Height="40" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="emailTv"/>
-            
-            <TextBlock x:Name="addressTv" Text="Address:" FontSize="40" Margin="20" RelativePanel.Below="emailTv"/>
-            <TextBox x:Name="addressTb" Margin="20" Height="40" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="addressTv"/>
-            
-            <TextBlock x:Name="postalTv" Text="Postal Code:" FontSize="40" Margin="20" RelativePanel.Below="addressTv"/>
-            <TextBox x:Name="postalTb" Margin="20" Height="40" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="postalTv"/>
-            
-            <TextBlock x:Name="provinceTv" Text="Province:" FontSize="40" Margin="20" RelativePanel.Below="postalTv"/>
-            <TextBox x:Name="provinceTb" Margin="20" Height="40" Width="400" RelativePanel.RightOf="nameTv" RelativePanel.AlignVerticalCenterWith="provinceTv"/>
-
-            <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" FontSize="40" Padding="15" Margin="20" RelativePanel.Below="provinceTv"/>
+        <TextBlock x:Name="headerTv" Text="Create your account" FontSize="60" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,534"/>
+        <TextBox x:Name="nameTb" Text="Full Name" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,484"/>
+        <TextBox x:Name="emailTb" Text="Email Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,434"/>
+        <TextBox x:Name="addressTb" Text="Address" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,384"/>
+        <TextBox x:Name="postalTb" Text="Postal Code" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,334"/>
+        <TextBox x:Name="provinceTb" Text="Province" Height="40" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,284"/>
+        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,234"/>
+        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,734" VerticalAlignment="Bottom" Width="200"/>
             <!-- TODO: Make the province input a dropdown -->
-        </RelativePanel>
+        
     </Grid>
 </Page>
