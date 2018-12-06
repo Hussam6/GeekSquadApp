@@ -16,7 +16,8 @@
         <TextBox x:Name="postalTb" Text="" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,381" Height="32" PlaceholderText="Postal Code"/>
         <ComboBox x:Name="provinceCb" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,344" ItemsSource="{x:Bind provinces}" PlaceholderText="Province" Height="32"/>
         <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Enter" Width="500" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,307" Height="32"/>
-        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="200"/>
+        <Image Source="Assets/bbycgs_logo.png" HorizontalAlignment="Center" Height="67" Margin="0,0,0,619" VerticalAlignment="Bottom" Width="250"/>
+        <HyperlinkButton Click="HyperlinkButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,270" Width="321" Foreground="Blue" Background="White" Height="32">Have an account? Click here to login.</HyperlinkButton>
         <!-- TODO: Make the province input a dropdown -->
 
     </Grid>

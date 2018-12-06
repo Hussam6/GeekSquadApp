@@ -46,5 +46,10 @@ namespace Geek_Squad
         {
             this.Frame.Navigate(typeof(CxtPage));
         }
+
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }
