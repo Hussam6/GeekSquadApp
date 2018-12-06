@@ -22,9 +22,11 @@ namespace Geek_Squad
     /// </summary>
     public sealed partial class CxtPage : Page
     {
+        string name = "Bob";
         public CxtPage()
         {
             this.InitializeComponent();
+            welcomeTv.Text = "Welcome, " + name + "!";
         }
 
         private void logoutBtn_Click(object sender, RoutedEventArgs e)
