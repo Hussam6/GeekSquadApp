@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geek Squad", "Geek Squad\Geek Squad.csproj", "{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Agent|ARM = Debug Agent|ARM
+		Debug Agent|x64 = Debug Agent|x64
+		Debug Agent|x86 = Debug Agent|x86
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
@@ -15,6 +18,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|ARM.ActiveCfg = Debug Agent|ARM
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|ARM.Build.0 = Debug Agent|ARM
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|ARM.Deploy.0 = Debug Agent|ARM
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x64.ActiveCfg = Debug Agent|x64
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x64.Build.0 = Debug Agent|x64
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x64.Deploy.0 = Debug Agent|x64
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x86.ActiveCfg = Debug Agent|x86
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x86.Build.0 = Debug Agent|x86
+		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug Agent|x86.Deploy.0 = Debug Agent|x86
 		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug|ARM.ActiveCfg = Debug|ARM
 		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug|ARM.Build.0 = Debug|ARM
 		{2D7A9162-41D3-4C51-A1A5-EAF11AA5CFF6}.Debug|ARM.Deploy.0 = Debug|ARM
