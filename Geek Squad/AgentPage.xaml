@@ -9,13 +9,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Content="Log In" HorizontalAlignment="Center" Margin="0,518,0,0" VerticalAlignment="Top" Width="500"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,117,0,0" Text="Welcome Agent Hussam" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="240" FontSize="20" TextAlignment="Center"/>
-        <NavigationView VerticalAlignment="Top" Height="1000" HorizontalAlignment="Left" Width="320" IsPaneOpen="True">
+        <Image HorizontalAlignment="Center" Height="877" VerticalAlignment="Top" Width="1972" Source="Assets\geek-squad-service-team.png" Stretch="None"/>
+        <TextBlock Margin="0,250,0,0" Text="Welcome Agent Hussam" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" FontSize="24" TextAlignment="Center" RenderTransformOrigin="0.485,0.394" HorizontalAlignment="Center" Width="301"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,327,0,0" Text="What would you like to do today?" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" TextAlignment="Center"/>
+        <NavigationView VerticalAlignment="Top" Height="1000" HorizontalAlignment="Left" Width="320" IsPaneOpen="True" SelectionChanged="NavigationViewItem_PointerPressed">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Find" Content="Search for TAG" Tag="SearchTag"/>
-                <NavigationViewItem Icon="Find" Content="Search for customer" Tag="SearchCxt"/>
+                <NavigationViewItem Icon="PreviewLink" Content="Search for TAG" Tag="searchTag"/>
+                <NavigationViewItem Icon="People" Content="Search for customer" Tag="searchCxt"/>
+                <NavigationViewItem Icon="Permissions" Content="Change Password" Tag="changePass"/>
+                <NavigationViewItem Icon="Clear" Content="Logout" Tag="logout"/>
             </NavigationView.MenuItems>
         </NavigationView>
+        
+        <SplitView HorizontalAlignment="Center" VerticalAlignment="Center" Height="999" Width="1500">
+            <SplitView.Content>
+                <Frame x:Name="contentFrame" HorizontalAlignment="Stretch" Margin="0,213,0,0" VerticalAlignment="Stretch"/>
+            </SplitView.Content>
+        </SplitView>
     </Grid>
 </Page>
