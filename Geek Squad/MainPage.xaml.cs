@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using DataAccessLibrary;
 //comment to test committing
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -30,6 +31,10 @@ namespace Geek_Squad
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(CxtPage));
+
+            DataAccess.AddData(Input_Box.Text);
+
+            Output.ItemsSource = DataAccess.GetData();
         }
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)

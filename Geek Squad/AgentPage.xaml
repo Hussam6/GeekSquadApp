@@ -10,8 +10,6 @@
 
     <Grid>
         <Image HorizontalAlignment="Center" Height="877" VerticalAlignment="Top" Width="1972" Source="Assets\geek-squad-service-team.png" Stretch="None"/>
-        <TextBlock Margin="0,250,0,0" Text="Welcome Agent Hussam" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" FontSize="24" TextAlignment="Center" RenderTransformOrigin="0.485,0.394" HorizontalAlignment="Center" Width="301"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,327,0,0" Text="What would you like to do today?" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" TextAlignment="Center"/>
         <NavigationView VerticalAlignment="Top" Height="1000" HorizontalAlignment="Left" Width="320" IsPaneOpen="True" SelectionChanged="NavigationViewItem_PointerPressed">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="PreviewLink" Content="Search for TAG" Tag="searchTag"/>

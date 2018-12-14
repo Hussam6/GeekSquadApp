@@ -20,25 +20,11 @@ namespace Geek_Squad
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class AgentPage : Page
+    public sealed partial class AgentWelcome : Page
     {
-        public AgentPage()
+        public AgentWelcome()
         {
             this.InitializeComponent();
-            contentFrame.Navigate(typeof(AgentWelcome));
-        }
-
-
-        private void NavigationViewItem_PointerPressed(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
-        {
-            NavigationViewItem item = args.SelectedItem as NavigationViewItem;
-
-            switch (item.Tag.ToString())
-            {
-                case "searchTag":
-                    contentFrame.Navigate(typeof(AgentTAG));
-                    break;
-            }
         }
     }
 }

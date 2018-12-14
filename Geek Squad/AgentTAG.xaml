@@ -9,16 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Search" Width="500" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,519,0,0" Height="32"/>
-        <TextBox x:Name="nameTb" Text="" Width="500" HorizontalAlignment="Center"  Margin="0,462,0,0" VerticalAlignment="Top" Height="32" PlaceholderText="Enter Tag Number"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,117,0,0" Text="TAG Lookup" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="301" FontSize="24" TextAlignment="Center"/>
-        <NavigationView VerticalAlignment="Top" Height="1000" HorizontalAlignment="Left" Width="320" IsPaneOpen="False">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="PreviewLink" Content="Search for TAG" Tag="searchTag"/>
-                <NavigationViewItem Icon="People" Content="Search for customer" Tag="searchCxt"/>
-                <NavigationViewItem Icon="Permissions" Content="Change Password" Tag="changePass"/>
-                <NavigationViewItem Icon="Clear" Content="Logout" Tag="logout"/>
-            </NavigationView.MenuItems>
-        </NavigationView>
+        <Button x:Name="enterBtn" Click="OnClickEnterBtn" Content="Search" Width="500" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,360,0,0" Height="32"/>
+        <TextBox x:Name="nameTb" Text="" Width="500" HorizontalAlignment="Center"  Margin="0,303,0,0" VerticalAlignment="Top" Height="32" PlaceholderText="Enter Tag Number"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,51,0,0" Text="TAG Lookup" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="301" FontSize="24" TextAlignment="Center"/>
     </Grid>
 </Page>
